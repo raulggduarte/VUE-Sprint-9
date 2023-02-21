@@ -1,0 +1,16 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.node.json",
+    "include": ["index.ts", "utils/**/*"],
+    "compilerOptions": {
+      "strict": false,
+      "resolveJsonModule": true,
+      "noImplicitAny": false,
+      "typeRoots": [
+        "./typings",
+        "./node_modules/@types/"
+      ],
+      "types": [
+        "vue-sweetalert2"
+      ]
+    }
+  }

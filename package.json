@@ -9,8 +9,16 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "gitart-scroll-carousel": "^1.2.4",
+    "gitart-vue-dialog": "^2.4.1",
+    "sweetalert2": "^11.4.8",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
+    "vue-sweetalert2": "^5.0.5",
+    "vue-template-compiler": "^2.7.14",
+    "vue-tiny-slider": "^0.1.39",
+    "vue3-audio-player": "^1.0.7",
+    "vue3-carousel": "^0.2.9",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
@@ -23,8 +31,10 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "firebase": "^9.17.1",
     "sass": "^1.32.7",
-    "sass-loader": "^12.0.0"
+    "sass-loader": "^12.0.0",
+    "typescript": "^4.9.5"
   },
   "eslintConfig": {
     "root": true,
